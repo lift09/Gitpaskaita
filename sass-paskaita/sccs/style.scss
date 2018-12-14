@@ -1,0 +1,23 @@
+@import "reset";
+
+//sass komentaras- matomas tik Sass faile i //sukompiliuota CSS nepersikels
+/*CSS komentaras*/
+
+
+//kintamieji
+$red: #ce042c;
+
+$main-font: 'Roboto', 'Arial', 'Helvetica',
+
+h1{
+	color: red;
+}
+
+@puses: top right botton left;
+
+@each $puse in $puses{
+	.border-#{$puse}: 1px solid $red;
+	}
+}
+
+$sulpeliu
